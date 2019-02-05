@@ -11,5 +11,6 @@ def reverse(array)
   array.collect do |word|
     word.reverse
   end
+  array
 
 def reverse_each_word(sentence)
