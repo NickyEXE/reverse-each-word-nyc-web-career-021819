@@ -13,4 +13,4 @@ def reverse(array)
   end
 end
 
-puts reverse("dogs","cats","ponies")
+puts reverse(["dogs","cats","ponies"])
