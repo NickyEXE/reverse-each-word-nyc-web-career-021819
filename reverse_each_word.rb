@@ -13,4 +13,6 @@ def reverse(array)
   end
 end
 
-puts reverse(["dogs","cats","ponies"])
+def reverse_each_word(sentence)
+  reverse(sentence.split(" ")).join(" ")
+end
