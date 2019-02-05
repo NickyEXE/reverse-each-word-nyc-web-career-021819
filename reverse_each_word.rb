@@ -13,4 +13,4 @@ def reverse(array)
   end
 end
 
-def reverse_each_word(sentence)
+puts reverse("dogs","cats","ponies")
